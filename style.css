@@ -1,0 +1,33 @@
+body{
+    background-color: lightcoral;
+}
+
+h1{
+    color: black;
+    background-color: coral;
+}
+
+canvas{
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-top: 150px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+.modal-header{
+width: 100% !important ;
+
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px tomato;}
+    to{box-shadow: 1px 1px 38px white;}
+}
+
+#h{
+    font-size: larger;
+    font-weight: bold;
+}
